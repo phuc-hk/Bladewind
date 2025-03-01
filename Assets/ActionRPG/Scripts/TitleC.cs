@@ -353,5 +353,9 @@ public class TitleC : MonoBehaviour {
 	public void SetPlayerName(string val){
 		charName = val;
 	}
-	
+
+	public void StartGameMobile()
+	{
+		SceneManager.LoadScene("MobileScene");
+	}
 }
